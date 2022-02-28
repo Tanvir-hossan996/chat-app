@@ -25,7 +25,9 @@ class App extends Component {
       <>
         <div className="App">
           <div className="App_container" style={{ width: "100%", display: "flex" }}>
-            <div style={{ width: "5%" }}>{/* <Color /> */}</div>
+            <div style={{ width: "5%" }}>
+              <Color />
+            </div>
             <div style={{ width: "20%" }}>
               <Sidebar currentuser={this.props.currentUser} />
             </div>

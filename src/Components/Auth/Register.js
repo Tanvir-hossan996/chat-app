@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Container, Button, Row, Col, Form, Spinner } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
-import { useNavigate } from "react-router-dom";
 import {
   auth,
   createUserWithEmailAndPassword,

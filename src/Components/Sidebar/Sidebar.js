@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Row } from "react-bootstrap";
-import Friend from "./Friend";
 import Group from "./Group";
 import User from "./User";
 
